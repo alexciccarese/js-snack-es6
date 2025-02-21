@@ -111,3 +111,18 @@ function numbRandom() {
 numbRandom()
 
 console.log(club);
+
+
+// creiamo nuovo array con nomi e falli
+
+function removePoint (arr) {
+  for (let i in arr) {
+    delete arr[i].points
+  }
+
+
+}
+
+removePoint(club)
+
+console.log(club);
