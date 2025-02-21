@@ -45,6 +45,6 @@ return lightBike
 }
 const lightBike = lighterBike()
 
-bikeTextEl.innerText = `La bici più leggera è ${lighterBike.name} e pesa ${lightBike} kg`
+bikeTextEl.innerText = `La bici più leggera è ${lightBike.name} e pesa ${lightBike.weight} kg`
 
 
